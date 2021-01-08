@@ -1,0 +1,6 @@
+framework module LibDynamicFrameworkA {
+  umbrella header "LibDynamicFrameworkA-umbrella.h"
+
+  export *
+  module * { export * }
+}

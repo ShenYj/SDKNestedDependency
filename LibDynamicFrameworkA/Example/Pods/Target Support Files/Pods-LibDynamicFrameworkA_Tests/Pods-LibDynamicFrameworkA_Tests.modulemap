@@ -1,0 +1,6 @@
+framework module Pods_LibDynamicFrameworkA_Tests {
+  umbrella header "Pods-LibDynamicFrameworkA_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

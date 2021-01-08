@@ -1,0 +1,16 @@
+PODS:
+  - LibStaticFrameworkA (0.1.0)
+
+DEPENDENCIES:
+  - LibStaticFrameworkA (from `../`)
+
+EXTERNAL SOURCES:
+  LibStaticFrameworkA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LibStaticFrameworkA: 432ae108a6c77af2d410658c4d84cd3409d1b648
+
+PODFILE CHECKSUM: 75b7573c37b7b99bfd11c11a2ca0dcdaa04d1161
+
+COCOAPODS: 1.10.0

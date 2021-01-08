@@ -1,0 +1,6 @@
+framework module Pods_LibStaticA_Tests {
+  umbrella header "Pods-LibStaticA_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

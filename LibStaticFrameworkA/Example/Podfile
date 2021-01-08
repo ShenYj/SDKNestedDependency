@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LibStaticFrameworkA_Example' do
+  pod 'LibStaticFrameworkA', :path => '../'
+
+  target 'LibStaticFrameworkA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

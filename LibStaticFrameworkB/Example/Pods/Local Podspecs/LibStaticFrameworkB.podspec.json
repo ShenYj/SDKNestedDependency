@@ -1,0 +1,22 @@
+{
+  "name": "LibStaticFrameworkB",
+  "version": "0.1.0",
+  "summary": "A short description of LibStaticFrameworkB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ShenYj/LibStaticFrameworkB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ShenYj": "shenyanjie123@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ShenYj/LibStaticFrameworkB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LibStaticFrameworkB/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - LibDynamicFrameworkB (0.1.0)
+
+DEPENDENCIES:
+  - LibDynamicFrameworkB (from `../`)
+
+EXTERNAL SOURCES:
+  LibDynamicFrameworkB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LibDynamicFrameworkB: d5f57ce1c160004c89fb63c5ce6b0e05c09732a5
+
+PODFILE CHECKSUM: d0dbc6a588d92bbc4782dd56cfa91d4c7c348ae7
+
+COCOAPODS: 1.10.0
