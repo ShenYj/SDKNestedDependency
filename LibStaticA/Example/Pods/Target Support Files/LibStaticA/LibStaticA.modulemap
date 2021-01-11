@@ -1,6 +1,0 @@
-framework module LibStaticA {
-  umbrella header "LibStaticA-umbrella.h"
-
-  export *
-  module * { export * }
-}

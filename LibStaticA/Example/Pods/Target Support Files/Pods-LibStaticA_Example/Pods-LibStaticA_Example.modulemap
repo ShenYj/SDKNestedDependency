@@ -1,6 +1,0 @@
-framework module Pods_LibStaticA_Example {
-  umbrella header "Pods-LibStaticA_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

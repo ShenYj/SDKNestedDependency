@@ -1,6 +1,0 @@
-framework module LibDynamicFrameworkB {
-  umbrella header "LibDynamicFrameworkB-umbrella.h"
-
-  export *
-  module * { export * }
-}
