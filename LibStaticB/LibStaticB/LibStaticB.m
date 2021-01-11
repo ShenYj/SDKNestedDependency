@@ -6,11 +6,13 @@
 //
 
 #import "LibStaticB.h"
-
+#import "LibStaticA/LibStaticA.h"
 @implementation LibStaticB
 
 + (void)libStaticBMethod {
     NSLog(@"%s", __func__);
+    
+    [LibStaticA libStaticAMethod];
 }
 
 @end

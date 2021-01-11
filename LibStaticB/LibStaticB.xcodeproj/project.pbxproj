@@ -17,6 +17,7 @@
 		F705783B25ABF55600E83A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F705783925ABF55600E83A2B /* LaunchScreen.storyboard */; };
 		F705783E25ABF55600E83A2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F705783D25ABF55600E83A2B /* main.m */; };
 		F705784E25ABF5AB00E83A2B /* libLibStaticB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F705781825ABF53400E83A2B /* libLibStaticB.a */; };
+		F7057AB525AC3D2B00E83A2B /* libLibStaticA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7057AB425AC3D2B00E83A2B /* libLibStaticA.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,8 @@
 		F705783A25ABF55600E83A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F705783C25ABF55600E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F705783D25ABF55600E83A2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7057AB325AC3D2B00E83A2B /* LibStaticA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibStaticA.h; sourceTree = "<group>"; };
+		F7057AB425AC3D2B00E83A2B /* libLibStaticA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLibStaticA.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7057AB525AC3D2B00E83A2B /* libLibStaticA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +95,7 @@
 		F705781A25ABF53400E83A2B /* LibStaticB */ = {
 			isa = PBXGroup;
 			children = (
+				F7057AB225AC3D2B00E83A2B /* LibStaticA */,
 				F705781B25ABF53400E83A2B /* LibStaticB.h */,
 				F705781C25ABF53400E83A2B /* LibStaticB.m */,
 			);
@@ -120,6 +125,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7057AB225AC3D2B00E83A2B /* LibStaticA */ = {
+			isa = PBXGroup;
+			children = (
+				F7057AB325AC3D2B00E83A2B /* LibStaticA.h */,
+				F7057AB425AC3D2B00E83A2B /* libLibStaticA.a */,
+			);
+			path = LibStaticA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,8 +378,18 @@
 		F705782225ABF53400E83A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					x86_64,
+					arm64e,
+					arm64,
+				);
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KS5QTFAS57;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LibStaticB/LibStaticA",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -376,8 +400,17 @@
 		F705782325ABF53400E83A2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					x86_64,
+					arm64e,
+					arm64,
+				);
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KS5QTFAS57;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LibStaticB/LibStaticA",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -397,6 +430,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibStaticBDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
