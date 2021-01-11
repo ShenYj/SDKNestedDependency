@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F705788C25ABF5EF00E83A2B /* LibStaticFrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */; };
+		F705789125ABF5EF00E83A2B /* LibStaticFrameworkBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F705789025ABF5EF00E83A2B /* LibStaticFrameworkBTests.m */; };
+		F705789325ABF5EF00E83A2B /* LibStaticFrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = F705788525ABF5EF00E83A2B /* LibStaticFrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70578EC25ABF65A00E83A2B /* StaticFrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = F70578EA25ABF65900E83A2B /* StaticFrameworkB.h */; };
+		F70578ED25ABF65A00E83A2B /* StaticFrameworkB.m in Sources */ = {isa = PBXBuildFile; fileRef = F70578EB25ABF65900E83A2B /* StaticFrameworkB.m */; };
+		F705795C25ABF83300E83A2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F705795B25ABF83300E83A2B /* AppDelegate.m */; };
+		F705795F25ABF83300E83A2B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F705795E25ABF83300E83A2B /* SceneDelegate.m */; };
+		F705796225ABF83300E83A2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F705796125ABF83300E83A2B /* ViewController.m */; };
+		F705796525ABF83300E83A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F705796325ABF83300E83A2B /* Main.storyboard */; };
+		F705796725ABF83400E83A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F705796625ABF83400E83A2B /* Assets.xcassets */; };
+		F705796A25ABF83400E83A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F705796825ABF83400E83A2B /* LaunchScreen.storyboard */; };
+		F705796D25ABF83400E83A2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F705796C25ABF83400E83A2B /* main.m */; };
+		F705797525ABF83C00E83A2B /* LibStaticFrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */; };
+		F705797625ABF83C00E83A2B /* LibStaticFrameworkB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F705788D25ABF5EF00E83A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F705787925ABF5EF00E83A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F705788125ABF5EF00E83A2B;
+			remoteInfo = LibStaticFrameworkB;
+		};
+		F705797725ABF83C00E83A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F705787925ABF5EF00E83A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F705788125ABF5EF00E83A2B;
+			remoteInfo = LibStaticFrameworkB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F705797925ABF83C00E83A2B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F705797625ABF83C00E83A2B /* LibStaticFrameworkB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibStaticFrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F705788525ABF5EF00E83A2B /* LibStaticFrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibStaticFrameworkB.h; sourceTree = "<group>"; };
+		F705788625ABF5EF00E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F705788B25ABF5EF00E83A2B /* LibStaticFrameworkBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStaticFrameworkBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F705789025ABF5EF00E83A2B /* LibStaticFrameworkBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibStaticFrameworkBTests.m; sourceTree = "<group>"; };
+		F705789225ABF5EF00E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70578EA25ABF65900E83A2B /* StaticFrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticFrameworkB.h; sourceTree = "<group>"; };
+		F70578EB25ABF65900E83A2B /* StaticFrameworkB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticFrameworkB.m; sourceTree = "<group>"; };
+		F705795825ABF83300E83A2B /* StaticFrameworkBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticFrameworkBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F705795A25ABF83300E83A2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F705795B25ABF83300E83A2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F705795D25ABF83300E83A2B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F705795E25ABF83300E83A2B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F705796025ABF83300E83A2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F705796125ABF83300E83A2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F705796425ABF83300E83A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F705796625ABF83400E83A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F705796925ABF83400E83A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F705796B25ABF83400E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F705796C25ABF83400E83A2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F705787F25ABF5EF00E83A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F705788825ABF5EF00E83A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F705788C25ABF5EF00E83A2B /* LibStaticFrameworkB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F705795525ABF83300E83A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F705797525ABF83C00E83A2B /* LibStaticFrameworkB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F705787825ABF5EF00E83A2B = {
+			isa = PBXGroup;
+			children = (
+				F705788425ABF5EF00E83A2B /* LibStaticFrameworkB */,
+				F705788F25ABF5EF00E83A2B /* LibStaticFrameworkBTests */,
+				F705795925ABF83300E83A2B /* StaticFrameworkBDemo */,
+				F705788325ABF5EF00E83A2B /* Products */,
+				F705797425ABF83C00E83A2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F705788325ABF5EF00E83A2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */,
+				F705788B25ABF5EF00E83A2B /* LibStaticFrameworkBTests.xctest */,
+				F705795825ABF83300E83A2B /* StaticFrameworkBDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F705788425ABF5EF00E83A2B /* LibStaticFrameworkB */ = {
+			isa = PBXGroup;
+			children = (
+				F705788525ABF5EF00E83A2B /* LibStaticFrameworkB.h */,
+				F70578EA25ABF65900E83A2B /* StaticFrameworkB.h */,
+				F70578EB25ABF65900E83A2B /* StaticFrameworkB.m */,
+				F705788625ABF5EF00E83A2B /* Info.plist */,
+			);
+			path = LibStaticFrameworkB;
+			sourceTree = "<group>";
+		};
+		F705788F25ABF5EF00E83A2B /* LibStaticFrameworkBTests */ = {
+			isa = PBXGroup;
+			children = (
+				F705789025ABF5EF00E83A2B /* LibStaticFrameworkBTests.m */,
+				F705789225ABF5EF00E83A2B /* Info.plist */,
+			);
+			path = LibStaticFrameworkBTests;
+			sourceTree = "<group>";
+		};
+		F705795925ABF83300E83A2B /* StaticFrameworkBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F705795A25ABF83300E83A2B /* AppDelegate.h */,
+				F705795B25ABF83300E83A2B /* AppDelegate.m */,
+				F705795D25ABF83300E83A2B /* SceneDelegate.h */,
+				F705795E25ABF83300E83A2B /* SceneDelegate.m */,
+				F705796025ABF83300E83A2B /* ViewController.h */,
+				F705796125ABF83300E83A2B /* ViewController.m */,
+				F705796325ABF83300E83A2B /* Main.storyboard */,
+				F705796625ABF83400E83A2B /* Assets.xcassets */,
+				F705796825ABF83400E83A2B /* LaunchScreen.storyboard */,
+				F705796B25ABF83400E83A2B /* Info.plist */,
+				F705796C25ABF83400E83A2B /* main.m */,
+			);
+			path = StaticFrameworkBDemo;
+			sourceTree = "<group>";
+		};
+		F705797425ABF83C00E83A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F705787D25ABF5EF00E83A2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70578EC25ABF65A00E83A2B /* StaticFrameworkB.h in Headers */,
+				F705789325ABF5EF00E83A2B /* LibStaticFrameworkB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F705788125ABF5EF00E83A2B /* LibStaticFrameworkB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F705789625ABF5EF00E83A2B /* Build configuration list for PBXNativeTarget "LibStaticFrameworkB" */;
+			buildPhases = (
+				F705787D25ABF5EF00E83A2B /* Headers */,
+				F705787E25ABF5EF00E83A2B /* Sources */,
+				F705787F25ABF5EF00E83A2B /* Frameworks */,
+				F705788025ABF5EF00E83A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibStaticFrameworkB;
+			productName = LibStaticFrameworkB;
+			productReference = F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F705788A25ABF5EF00E83A2B /* LibStaticFrameworkBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F705789925ABF5EF00E83A2B /* Build configuration list for PBXNativeTarget "LibStaticFrameworkBTests" */;
+			buildPhases = (
+				F705788725ABF5EF00E83A2B /* Sources */,
+				F705788825ABF5EF00E83A2B /* Frameworks */,
+				F705788925ABF5EF00E83A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F705788E25ABF5EF00E83A2B /* PBXTargetDependency */,
+			);
+			name = LibStaticFrameworkBTests;
+			productName = LibStaticFrameworkBTests;
+			productReference = F705788B25ABF5EF00E83A2B /* LibStaticFrameworkBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F705795725ABF83300E83A2B /* StaticFrameworkBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F705796E25ABF83400E83A2B /* Build configuration list for PBXNativeTarget "StaticFrameworkBDemo" */;
+			buildPhases = (
+				F705795425ABF83300E83A2B /* Sources */,
+				F705795525ABF83300E83A2B /* Frameworks */,
+				F705795625ABF83300E83A2B /* Resources */,
+				F705797925ABF83C00E83A2B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F705797825ABF83C00E83A2B /* PBXTargetDependency */,
+			);
+			name = StaticFrameworkBDemo;
+			productName = StaticFrameworkBDemo;
+			productReference = F705795825ABF83300E83A2B /* StaticFrameworkBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F705787925ABF5EF00E83A2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F705788125ABF5EF00E83A2B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F705788A25ABF5EF00E83A2B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F705795725ABF83300E83A2B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F705787C25ABF5EF00E83A2B /* Build configuration list for PBXProject "LibStaticFrameworkB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F705787825ABF5EF00E83A2B;
+			productRefGroup = F705788325ABF5EF00E83A2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F705788125ABF5EF00E83A2B /* LibStaticFrameworkB */,
+				F705788A25ABF5EF00E83A2B /* LibStaticFrameworkBTests */,
+				F705795725ABF83300E83A2B /* StaticFrameworkBDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F705788025ABF5EF00E83A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F705788925ABF5EF00E83A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F705795625ABF83300E83A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F705796A25ABF83400E83A2B /* LaunchScreen.storyboard in Resources */,
+				F705796725ABF83400E83A2B /* Assets.xcassets in Resources */,
+				F705796525ABF83300E83A2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F705787E25ABF5EF00E83A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70578ED25ABF65A00E83A2B /* StaticFrameworkB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F705788725ABF5EF00E83A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F705789125ABF5EF00E83A2B /* LibStaticFrameworkBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F705795425ABF83300E83A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F705796225ABF83300E83A2B /* ViewController.m in Sources */,
+				F705795C25ABF83300E83A2B /* AppDelegate.m in Sources */,
+				F705796D25ABF83400E83A2B /* main.m in Sources */,
+				F705795F25ABF83300E83A2B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F705788E25ABF5EF00E83A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F705788125ABF5EF00E83A2B /* LibStaticFrameworkB */;
+			targetProxy = F705788D25ABF5EF00E83A2B /* PBXContainerItemProxy */;
+		};
+		F705797825ABF83C00E83A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F705788125ABF5EF00E83A2B /* LibStaticFrameworkB */;
+			targetProxy = F705797725ABF83C00E83A2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F705796325ABF83300E83A2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F705796425ABF83300E83A2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F705796825ABF83400E83A2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F705796925ABF83400E83A2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F705789425ABF5EF00E83A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F705789525ABF5EF00E83A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F705789725ABF5EF00E83A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibStaticFrameworkB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibStaticFrameworkB;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F705789825ABF5EF00E83A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibStaticFrameworkB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibStaticFrameworkB;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F705789A25ABF5EF00E83A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = LibStaticFrameworkBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibStaticFrameworkBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F705789B25ABF5EF00E83A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = LibStaticFrameworkBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibStaticFrameworkBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F705796F25ABF83400E83A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = StaticFrameworkBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.StaticFrameworkBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F705797025ABF83400E83A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				INFOPLIST_FILE = StaticFrameworkBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.StaticFrameworkBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F705787C25ABF5EF00E83A2B /* Build configuration list for PBXProject "LibStaticFrameworkB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F705789425ABF5EF00E83A2B /* Debug */,
+				F705789525ABF5EF00E83A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F705789625ABF5EF00E83A2B /* Build configuration list for PBXNativeTarget "LibStaticFrameworkB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F705789725ABF5EF00E83A2B /* Debug */,
+				F705789825ABF5EF00E83A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F705789925ABF5EF00E83A2B /* Build configuration list for PBXNativeTarget "LibStaticFrameworkBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F705789A25ABF5EF00E83A2B /* Debug */,
+				F705789B25ABF5EF00E83A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F705796E25ABF83400E83A2B /* Build configuration list for PBXNativeTarget "StaticFrameworkBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F705796F25ABF83400E83A2B /* Debug */,
+				F705797025ABF83400E83A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F705787925ABF5EF00E83A2B /* Project object */;
+}
