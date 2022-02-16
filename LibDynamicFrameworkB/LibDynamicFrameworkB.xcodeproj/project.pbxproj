@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F70578D825ABF60D00E83A2B /* LibDynamicFrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70578CE25ABF60D00E83A2B /* LibDynamicFrameworkB.framework */; };
-		F70578DD25ABF60D00E83A2B /* LibDynamicFrameworkBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F70578DC25ABF60D00E83A2B /* LibDynamicFrameworkBTests.m */; };
 		F70578DF25ABF60D00E83A2B /* LibDynamicFrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = F70578D125ABF60D00E83A2B /* LibDynamicFrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F70578FA25ABF6F100E83A2B /* DynamicFrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = F70578F825ABF6F100E83A2B /* DynamicFrameworkB.h */; };
 		F70578FB25ABF6F100E83A2B /* DynamicFrameworkB.m in Sources */ = {isa = PBXBuildFile; fileRef = F70578F925ABF6F100E83A2B /* DynamicFrameworkB.m */; };
@@ -24,13 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F70578D925ABF60D00E83A2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F70578C525ABF60D00E83A2B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F70578CD25ABF60D00E83A2B;
-			remoteInfo = LibDynamicFrameworkB;
-		};
 		F705792725ABF7BC00E83A2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F70578C525ABF60D00E83A2B /* Project object */;
@@ -58,9 +49,6 @@
 		F70578CE25ABF60D00E83A2B /* LibDynamicFrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibDynamicFrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70578D125ABF60D00E83A2B /* LibDynamicFrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibDynamicFrameworkB.h; sourceTree = "<group>"; };
 		F70578D225ABF60D00E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F70578D725ABF60D00E83A2B /* LibDynamicFrameworkBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibDynamicFrameworkBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F70578DC25ABF60D00E83A2B /* LibDynamicFrameworkBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibDynamicFrameworkBTests.m; sourceTree = "<group>"; };
-		F70578DE25ABF60D00E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F70578F825ABF6F100E83A2B /* DynamicFrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicFrameworkB.h; sourceTree = "<group>"; };
 		F70578F925ABF6F100E83A2B /* DynamicFrameworkB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicFrameworkB.m; sourceTree = "<group>"; };
 		F705790825ABF7A000E83A2B /* DynamicFrameworkBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicFrameworkBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,14 +73,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F70578D425ABF60D00E83A2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F70578D825ABF60D00E83A2B /* LibDynamicFrameworkB.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F705790525ABF7A000E83A2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				F70578D025ABF60D00E83A2B /* LibDynamicFrameworkB */,
-				F70578DB25ABF60D00E83A2B /* LibDynamicFrameworkBTests */,
 				F705790925ABF7A000E83A2B /* DynamicFrameworkBDemo */,
 				F70578CF25ABF60D00E83A2B /* Products */,
 				F705792425ABF7BC00E83A2B /* Frameworks */,
@@ -119,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				F70578CE25ABF60D00E83A2B /* LibDynamicFrameworkB.framework */,
-				F70578D725ABF60D00E83A2B /* LibDynamicFrameworkBTests.xctest */,
 				F705790825ABF7A000E83A2B /* DynamicFrameworkBDemo.app */,
 			);
 			name = Products;
@@ -134,15 +112,6 @@
 				F70578D225ABF60D00E83A2B /* Info.plist */,
 			);
 			path = LibDynamicFrameworkB;
-			sourceTree = "<group>";
-		};
-		F70578DB25ABF60D00E83A2B /* LibDynamicFrameworkBTests */ = {
-			isa = PBXGroup;
-			children = (
-				F70578DC25ABF60D00E83A2B /* LibDynamicFrameworkBTests.m */,
-				F70578DE25ABF60D00E83A2B /* Info.plist */,
-			);
-			path = LibDynamicFrameworkBTests;
 			sourceTree = "<group>";
 		};
 		F705790925ABF7A000E83A2B /* DynamicFrameworkBDemo */ = {
@@ -203,24 +172,6 @@
 			productReference = F70578CE25ABF60D00E83A2B /* LibDynamicFrameworkB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F70578D625ABF60D00E83A2B /* LibDynamicFrameworkBTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F70578E525ABF60D00E83A2B /* Build configuration list for PBXNativeTarget "LibDynamicFrameworkBTests" */;
-			buildPhases = (
-				F70578D325ABF60D00E83A2B /* Sources */,
-				F70578D425ABF60D00E83A2B /* Frameworks */,
-				F70578D525ABF60D00E83A2B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F70578DA25ABF60D00E83A2B /* PBXTargetDependency */,
-			);
-			name = LibDynamicFrameworkBTests;
-			productName = LibDynamicFrameworkBTests;
-			productReference = F70578D725ABF60D00E83A2B /* LibDynamicFrameworkBTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F705790725ABF7A000E83A2B /* DynamicFrameworkBDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F705791E25ABF7A100E83A2B /* Build configuration list for PBXNativeTarget "DynamicFrameworkBDemo" */;
@@ -251,9 +202,6 @@
 					F70578CD25ABF60D00E83A2B = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					F70578D625ABF60D00E83A2B = {
-						CreatedOnToolsVersion = 12.3;
-					};
 					F705790725ABF7A000E83A2B = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -273,7 +221,6 @@
 			projectRoot = "";
 			targets = (
 				F70578CD25ABF60D00E83A2B /* LibDynamicFrameworkB */,
-				F70578D625ABF60D00E83A2B /* LibDynamicFrameworkBTests */,
 				F705790725ABF7A000E83A2B /* DynamicFrameworkBDemo */,
 			);
 		};
@@ -281,13 +228,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		F70578CC25ABF60D00E83A2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F70578D525ABF60D00E83A2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,14 +255,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F70578D325ABF60D00E83A2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F70578DD25ABF60D00E83A2B /* LibDynamicFrameworkBTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F705790425ABF7A000E83A2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,11 +269,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F70578DA25ABF60D00E83A2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F70578CD25ABF60D00E83A2B /* LibDynamicFrameworkB */;
-			targetProxy = F70578D925ABF60D00E83A2B /* PBXContainerItemProxy */;
-		};
 		F705792825ABF7BC00E83A2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F70578CD25ABF60D00E83A2B /* LibDynamicFrameworkB */;
@@ -533,40 +460,6 @@
 			};
 			name = Release;
 		};
-		F70578E625ABF60D00E83A2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KS5QTFAS57;
-				INFOPLIST_FILE = LibDynamicFrameworkBTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibDynamicFrameworkBTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F70578E725ABF60D00E83A2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KS5QTFAS57;
-				INFOPLIST_FILE = LibDynamicFrameworkBTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibDynamicFrameworkBTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		F705791F25ABF7A100E83A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -620,15 +513,6 @@
 			buildConfigurations = (
 				F70578E325ABF60D00E83A2B /* Debug */,
 				F70578E425ABF60D00E83A2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F70578E525ABF60D00E83A2B /* Build configuration list for PBXNativeTarget "LibDynamicFrameworkBTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F70578E625ABF60D00E83A2B /* Debug */,
-				F70578E725ABF60D00E83A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

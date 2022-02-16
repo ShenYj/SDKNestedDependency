@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F705788C25ABF5EF00E83A2B /* LibStaticFrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */; };
-		F705789125ABF5EF00E83A2B /* LibStaticFrameworkBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F705789025ABF5EF00E83A2B /* LibStaticFrameworkBTests.m */; };
 		F705789325ABF5EF00E83A2B /* LibStaticFrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = F705788525ABF5EF00E83A2B /* LibStaticFrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F70578EC25ABF65A00E83A2B /* StaticFrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = F70578EA25ABF65900E83A2B /* StaticFrameworkB.h */; };
 		F70578ED25ABF65A00E83A2B /* StaticFrameworkB.m in Sources */ = {isa = PBXBuildFile; fileRef = F70578EB25ABF65900E83A2B /* StaticFrameworkB.m */; };
@@ -24,13 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F705788D25ABF5EF00E83A2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F705787925ABF5EF00E83A2B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F705788125ABF5EF00E83A2B;
-			remoteInfo = LibStaticFrameworkB;
-		};
 		F705797725ABF83C00E83A2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F705787925ABF5EF00E83A2B /* Project object */;
@@ -58,9 +49,6 @@
 		F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibStaticFrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F705788525ABF5EF00E83A2B /* LibStaticFrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibStaticFrameworkB.h; sourceTree = "<group>"; };
 		F705788625ABF5EF00E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F705788B25ABF5EF00E83A2B /* LibStaticFrameworkBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStaticFrameworkBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F705789025ABF5EF00E83A2B /* LibStaticFrameworkBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibStaticFrameworkBTests.m; sourceTree = "<group>"; };
-		F705789225ABF5EF00E83A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F70578EA25ABF65900E83A2B /* StaticFrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticFrameworkB.h; sourceTree = "<group>"; };
 		F70578EB25ABF65900E83A2B /* StaticFrameworkB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticFrameworkB.m; sourceTree = "<group>"; };
 		F705795825ABF83300E83A2B /* StaticFrameworkBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticFrameworkBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,14 +73,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F705788825ABF5EF00E83A2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F705788C25ABF5EF00E83A2B /* LibStaticFrameworkB.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F705795525ABF83300E83A2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				F705788425ABF5EF00E83A2B /* LibStaticFrameworkB */,
-				F705788F25ABF5EF00E83A2B /* LibStaticFrameworkBTests */,
 				F705795925ABF83300E83A2B /* StaticFrameworkBDemo */,
 				F705788325ABF5EF00E83A2B /* Products */,
 				F705797425ABF83C00E83A2B /* Frameworks */,
@@ -119,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */,
-				F705788B25ABF5EF00E83A2B /* LibStaticFrameworkBTests.xctest */,
 				F705795825ABF83300E83A2B /* StaticFrameworkBDemo.app */,
 			);
 			name = Products;
@@ -134,15 +112,6 @@
 				F705788625ABF5EF00E83A2B /* Info.plist */,
 			);
 			path = LibStaticFrameworkB;
-			sourceTree = "<group>";
-		};
-		F705788F25ABF5EF00E83A2B /* LibStaticFrameworkBTests */ = {
-			isa = PBXGroup;
-			children = (
-				F705789025ABF5EF00E83A2B /* LibStaticFrameworkBTests.m */,
-				F705789225ABF5EF00E83A2B /* Info.plist */,
-			);
-			path = LibStaticFrameworkBTests;
 			sourceTree = "<group>";
 		};
 		F705795925ABF83300E83A2B /* StaticFrameworkBDemo */ = {
@@ -203,24 +172,6 @@
 			productReference = F705788225ABF5EF00E83A2B /* LibStaticFrameworkB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F705788A25ABF5EF00E83A2B /* LibStaticFrameworkBTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F705789925ABF5EF00E83A2B /* Build configuration list for PBXNativeTarget "LibStaticFrameworkBTests" */;
-			buildPhases = (
-				F705788725ABF5EF00E83A2B /* Sources */,
-				F705788825ABF5EF00E83A2B /* Frameworks */,
-				F705788925ABF5EF00E83A2B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F705788E25ABF5EF00E83A2B /* PBXTargetDependency */,
-			);
-			name = LibStaticFrameworkBTests;
-			productName = LibStaticFrameworkBTests;
-			productReference = F705788B25ABF5EF00E83A2B /* LibStaticFrameworkBTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F705795725ABF83300E83A2B /* StaticFrameworkBDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F705796E25ABF83400E83A2B /* Build configuration list for PBXNativeTarget "StaticFrameworkBDemo" */;
@@ -251,9 +202,6 @@
 					F705788125ABF5EF00E83A2B = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					F705788A25ABF5EF00E83A2B = {
-						CreatedOnToolsVersion = 12.3;
-					};
 					F705795725ABF83300E83A2B = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -273,7 +221,6 @@
 			projectRoot = "";
 			targets = (
 				F705788125ABF5EF00E83A2B /* LibStaticFrameworkB */,
-				F705788A25ABF5EF00E83A2B /* LibStaticFrameworkBTests */,
 				F705795725ABF83300E83A2B /* StaticFrameworkBDemo */,
 			);
 		};
@@ -281,13 +228,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		F705788025ABF5EF00E83A2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F705788925ABF5EF00E83A2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,14 +255,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F705788725ABF5EF00E83A2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F705789125ABF5EF00E83A2B /* LibStaticFrameworkBTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F705795425ABF83300E83A2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,11 +269,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F705788E25ABF5EF00E83A2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F705788125ABF5EF00E83A2B /* LibStaticFrameworkB */;
-			targetProxy = F705788D25ABF5EF00E83A2B /* PBXContainerItemProxy */;
-		};
 		F705797825ABF83C00E83A2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F705788125ABF5EF00E83A2B /* LibStaticFrameworkB */;
@@ -535,40 +462,6 @@
 			};
 			name = Release;
 		};
-		F705789A25ABF5EF00E83A2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KS5QTFAS57;
-				INFOPLIST_FILE = LibStaticFrameworkBTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibStaticFrameworkBTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F705789B25ABF5EF00E83A2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KS5QTFAS57;
-				INFOPLIST_FILE = LibStaticFrameworkBTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.shenyj.secondStaticLibDemo.LibStaticFrameworkBTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		F705796F25ABF83400E83A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -622,15 +515,6 @@
 			buildConfigurations = (
 				F705789725ABF5EF00E83A2B /* Debug */,
 				F705789825ABF5EF00E83A2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F705789925ABF5EF00E83A2B /* Build configuration list for PBXNativeTarget "LibStaticFrameworkBTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F705789A25ABF5EF00E83A2B /* Debug */,
-				F705789B25ABF5EF00E83A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
